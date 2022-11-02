@@ -1,0 +1,11 @@
+# 1 -> TX
+ADD
+TXSTOR
+# 2 -> SX
+ADD
+SXSTOR
+# amount(beaker[2]) -> AX
+# (1-indexed)
+AMOUNT
+# Transfer AX units from SX to TX
+MOVE
